@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	margin: 0;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
+	font-size: 18px;
+	line-height: 25px;
+}
+header{
+	background-color: #ebba4d;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 40px
+}
+header h1{
+	color: white;
+	font-size: 30px;
+	margin-top: 40px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+header img{
+	border-radius: 150px;
+	width: 300px;
+	border: 5px solid #E66D3A; 
+}
+
+main{ 
+max-width: 980px;
+margin: 0 auto;
+padding: 0 40px 20px 40px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+h2{
+	background-color: #E66D3A;
+	color: white;
+	padding: 10px 10px 10px 10px;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 19px;
+}
+
+p.subtext{font-size: 13px;
+			margin-top: 0;
+}
+
+a{ color: #E66D3A;}
+
+a:hover{
+	color: white;
+	background-color: #E66D3A;
+	padding: 5px 5px 5px 5px;
+}
+
+footer { 
+max-width: 980px;
+margin: 0 auto;
+padding: 0 40px 20px 40px;
+font-size: 13px;
+}
